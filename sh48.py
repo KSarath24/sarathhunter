@@ -1,6 +1,7 @@
+d=-1
+s=raw_input()
 a=raw_input()
-b=raw_input()
-if b in a:
-	print(a.index(b[0]))
+if a in s:
+	print(s.index(a[0]))
 else:
-	print ("-1")
+	print (d)
